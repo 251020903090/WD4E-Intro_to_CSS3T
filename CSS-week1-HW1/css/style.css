@@ -9,6 +9,8 @@ header{
 
 nav{
     background:#b0c4de;
+    display:inline-block;
+    width: 80%;
 }
 
 main{
@@ -44,16 +46,6 @@ a:focus{
     left: 10px;
 }
 
-/* li */
-li{
-    display: inline-block;
-}
-
-/* nav */
-nav{
-    display: inline-block;
-    width: 80%;
-}
 
 /* Chỉ ảnh trong nav */
 nav img{
