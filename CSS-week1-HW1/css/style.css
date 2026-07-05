@@ -34,3 +34,42 @@ h1{
 p{
     line-height:1.6;
 }
+/* Skip link */
+a{
+    position: absolute;
+    left: -999px;
+}
+
+a:focus{
+    left: 10px;
+}
+
+/* li */
+li{
+    display: inline-block;
+}
+
+/* nav */
+nav{
+    display: inline-block;
+    width: 80%;
+}
+
+/* Chỉ ảnh trong nav */
+nav img{
+    width: 10%;
+}
+
+/* Grid */
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: start;
+    row-gap: 20px;
+}
+
+/* Chỉ ảnh trong grid */
+.grid img{
+    width: 100%;
+}
